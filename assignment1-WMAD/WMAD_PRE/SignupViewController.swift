@@ -9,6 +9,12 @@ import UIKit
 
 class SignupViewController: UIViewController {
     
+    var titleValue: String = ""
+    
+    
     override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        print("value is : \(titleValue)")
     }
 }

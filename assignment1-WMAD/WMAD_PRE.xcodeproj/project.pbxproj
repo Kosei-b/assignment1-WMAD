@@ -13,6 +13,7 @@
 		0192709B270BDDBE0064BAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01927099270BDDBE0064BAB1 /* Main.storyboard */; };
 		0192709D270BDDC10064BAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0192709C270BDDC10064BAB1 /* Assets.xcassets */; };
 		019270A0270BDDC10064BAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0192709E270BDDC10064BAB1 /* LaunchScreen.storyboard */; };
+		019E76E12716980E004982AD /* Dachbordviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E76E02716980E004982AD /* Dachbordviewcontroller.swift */; };
 		01AC416D270D887C003A75C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC416C270D887C003A75C9 /* LoginViewController.swift */; };
 		01AC416F270D88A5003A75C9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC416E270D88A5003A75C9 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		0192709C270BDDC10064BAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0192709F270BDDC10064BAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019270A1270BDDC10064BAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019E76E02716980E004982AD /* Dachbordviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dachbordviewcontroller.swift; sourceTree = "<group>"; };
 		01AC416C270D887C003A75C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01AC416E270D88A5003A75C9 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 				0192709C270BDDC10064BAB1 /* Assets.xcassets */,
 				0192709E270BDDC10064BAB1 /* LaunchScreen.storyboard */,
 				019270A1270BDDC10064BAB1 /* Info.plist */,
+				019E76E02716980E004982AD /* Dachbordviewcontroller.swift */,
 			);
 			path = WMAD_PRE;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AC416D270D887C003A75C9 /* LoginViewController.swift in Sources */,
+				019E76E12716980E004982AD /* Dachbordviewcontroller.swift in Sources */,
 				01927098270BDDBE0064BAB1 /* ViewController.swift in Sources */,
 				01AC416F270D88A5003A75C9 /* SignupViewController.swift in Sources */,
 				01927094270BDDBE0064BAB1 /* AppDelegate.swift in Sources */,
