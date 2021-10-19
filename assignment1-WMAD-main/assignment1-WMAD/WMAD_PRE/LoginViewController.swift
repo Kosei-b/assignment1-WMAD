@@ -23,6 +23,7 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         
         emailTextField.delegate = self
         passwordTextField.delegate = self
+        title = "Log in"
         
         
     }
@@ -49,7 +50,8 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         if identifier == "dashboard" {
             
         }
-     
+        
+    
         
         
         

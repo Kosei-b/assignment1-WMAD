@@ -16,5 +16,11 @@ class SignupViewController: UIViewController {
         
         super.viewDidLoad()
         print("value is : \(titleValue)")
+        
+        title = "Sign up"
+        navigationController?.navigationBar.backgroundColor = UIColor.blue
+        
+        
+        
     }
 }
