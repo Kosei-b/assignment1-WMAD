@@ -14,6 +14,9 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBOutlet weak var facebookButton: UIButton!
+    @IBOutlet weak var twitterButton: UIButton!
+    
     var titleValue: String = ""
     
     override func viewDidLoad() {
@@ -21,9 +24,17 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         
         print("value is : \(titleValue)")
         
-        emailTextField.delegate = self
-        passwordTextField.delegate = self
         
+        passwordTextField.delegate = self
+        title = "Log in"
+        
+        
+        //Button Corner Radius
+        loginButton.layer.cornerRadius = 25
+        facebookButton.layer.cornerRadius = 25
+        twitterButton.layer.cornerRadius = 25
+        
+
         
     }
     
@@ -49,7 +60,8 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         if identifier == "dashboard" {
             
         }
-     
+        
+    
         
         
         

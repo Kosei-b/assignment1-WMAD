@@ -9,7 +9,9 @@ import UIKit
 
 class DashboardViewController :UIViewController{
     
+    @IBOutlet weak var editBarButton: UIBarButtonItem!
     override func viewDidLoad() {
+        
         
         
     }

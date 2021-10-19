@@ -9,6 +9,7 @@ import UIKit
 
 class SignupViewController: UIViewController {
     
+    @IBOutlet weak var SiginUpButton: UIButton!
     var titleValue: String = ""
     
     
@@ -16,5 +17,14 @@ class SignupViewController: UIViewController {
         
         super.viewDidLoad()
         print("value is : \(titleValue)")
+        
+        title = "Sign up"
+        navigationController?.navigationBar.backgroundColor = UIColor.blue
+        
+        //Button Corner Radius
+        SiginUpButton.layer.cornerRadius = 25
+        
+        
+        
     }
 }
