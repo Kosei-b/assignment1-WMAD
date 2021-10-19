@@ -73,6 +73,10 @@ your plan.</string>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="cN5-Pu-KQa"/>
+                    <connections>
+                        <outlet property="Login" destination="ivd-Zn-Qoe" id="vll-Ch-HVA"/>
+                        <outlet property="SignUpButton" destination="uqW-cE-xGH" id="EeY-rT-XbT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -340,8 +344,10 @@ your plan.</string>
                     <navigationItem key="navigationItem" id="S25-VN-aEe"/>
                     <connections>
                         <outlet property="emailTextField" destination="wvZ-4u-zSc" id="PuQ-k0-kB3"/>
+                        <outlet property="facebookButton" destination="WKo-of-max" id="THQ-fA-4aU"/>
                         <outlet property="loginButton" destination="OVE-6x-y1g" id="xaH-HA-FkO"/>
                         <outlet property="passwordTextField" destination="WnY-Gw-onT" id="UnY-Wh-zwx"/>
+                        <outlet property="twitterButton" destination="T8m-uq-8OR" id="fyK-Rh-8QU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="92I-wL-hQy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -446,6 +452,9 @@ your plan.</string>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="q3e-9A-u6X"/>
+                    <connections>
+                        <outlet property="SiginUpButton" destination="UwD-rB-7ql" id="gb6-To-Oso"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CN3-x2-L6S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
