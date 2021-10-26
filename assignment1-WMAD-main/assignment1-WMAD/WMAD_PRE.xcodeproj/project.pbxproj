@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010EA88E2727CE2000237ADE /* FrendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010EA88D2727CE2000237ADE /* FrendsTableViewController.swift */; };
 		01927094270BDDBE0064BAB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01927093270BDDBE0064BAB1 /* AppDelegate.swift */; };
 		01927096270BDDBE0064BAB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01927095270BDDBE0064BAB1 /* SceneDelegate.swift */; };
 		01927098270BDDBE0064BAB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01927097270BDDBE0064BAB1 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010EA88D2727CE2000237ADE /* FrendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendsTableViewController.swift; sourceTree = "<group>"; };
 		01927090270BDDBE0064BAB1 /* WMAD_PRE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMAD_PRE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01927093270BDDBE0064BAB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01927095270BDDBE0064BAB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				0192709E270BDDC10064BAB1 /* LaunchScreen.storyboard */,
 				019270A1270BDDC10064BAB1 /* Info.plist */,
 				019E76E02716980E004982AD /* Dachbordviewcontroller.swift */,
+				010EA88D2727CE2000237ADE /* FrendsTableViewController.swift */,
 			);
 			path = WMAD_PRE;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				019E76E12716980E004982AD /* Dachbordviewcontroller.swift in Sources */,
 				01927098270BDDBE0064BAB1 /* ViewController.swift in Sources */,
 				01AC416F270D88A5003A75C9 /* SignupViewController.swift in Sources */,
+				010EA88E2727CE2000237ADE /* FrendsTableViewController.swift in Sources */,
 				01927094270BDDBE0064BAB1 /* AppDelegate.swift in Sources */,
 				01927096270BDDBE0064BAB1 /* SceneDelegate.swift in Sources */,
 			);

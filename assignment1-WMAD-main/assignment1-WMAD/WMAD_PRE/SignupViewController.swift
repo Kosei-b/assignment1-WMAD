@@ -23,6 +23,7 @@ class SignupViewController: UIViewController {
         
         //Button Corner Radius
         SiginUpButton.layer.cornerRadius = 25
+        SiginUpButton.layer.cornerRadius = 40
         
         
         

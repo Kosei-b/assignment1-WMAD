@@ -247,7 +247,36 @@ your plan.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="roe-vE-n1o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1986.9565217391305" y="-836.38392857142856"/>
+            <point key="canvasLocation" x="2872" y="-836"/>
+        </scene>
+        <!--Frends Tbable Controller-->
+        <scene sceneID="2ls-FP-3ke">
+            <objects>
+                <tableViewController id="VHD-J2-iFE" customClass="FrendsTbableController" customModule="WMAD_PRE" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="b5T-Gg-Myo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellidentifer" id="7eJ-eC-Ebd">
+                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7eJ-eC-Ebd" id="4h6-vP-cCC">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="VHD-J2-iFE" id="ZNj-8d-t29"/>
+                            <outlet property="delegate" destination="VHD-J2-iFE" id="HWV-iI-JGa"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="HuG-ke-L98"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1nc-Vv-hu4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2871" y="-135"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="0B9-EF-DSe">
@@ -257,10 +286,6 @@ your plan.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo green img" translatesAutoresizingMaskIntoConstraints="NO" id="ftf-3T-VpK">
-                                <rect key="frame" x="74" y="125" width="280" height="126"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVE-6x-y1g">
                                 <rect key="frame" x="59" y="555" width="293" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -270,7 +295,7 @@ your plan.</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="cvl-M9-lSa" kind="show" identifier="dashboard" id="Cbs-ix-iop"/>
+                                    <segue destination="VHD-J2-iFE" kind="show" id="Xy5-2a-Ril"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WnY-Gw-onT">
@@ -337,6 +362,10 @@ your plan.</string>
                                     <segue destination="57a-I1-ZYC" kind="show" id="bLe-7O-knY"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo green img" translatesAutoresizingMaskIntoConstraints="NO" id="ftf-3T-VpK">
+                                <rect key="frame" x="72" y="134" width="280" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5sQ-x2-e3Q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -353,46 +382,6 @@ your plan.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="92I-wL-hQy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1955.072463768116" y="-135.26785714285714"/>
-        </scene>
-        <!--Dashboard View Controller-->
-        <scene sceneID="ieO-pL-T68">
-            <objects>
-                <viewController id="cvl-M9-lSa" customClass="DashboardViewController" customModule="WMAD_PRE" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="s9K-KY-ZvC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a27-iW-Zrl">
-                                <rect key="frame" x="127" y="20" width="182" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pfofile img" translatesAutoresizingMaskIntoConstraints="NO" id="bto-Sd-brZ">
-                                <rect key="frame" x="98" y="142" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image back" translatesAutoresizingMaskIntoConstraints="NO" id="Cg5-gM-YB8">
-                                <rect key="frame" x="10" y="313" width="394" height="434"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Jlh-FY-cFM"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="YX3-Ui-1XI">
-                        <barButtonItem key="rightBarButtonItem" title="Edit" id="Qkg-Uy-XuX">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="editBarButton" destination="Qkg-Uy-XuX" id="eiQ-q4-WDo"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gSK-Jy-hEc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2897.1014492753625" y="-135.26785714285714"/>
         </scene>
         <!--Signup View Controller-->
         <scene sceneID="aCo-Go-wxf">
@@ -458,7 +447,7 @@ your plan.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CN3-x2-L6S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1955.072463768116" y="593.97321428571422"/>
+            <point key="canvasLocation" x="1955" y="594"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oZu-LD-fak">
@@ -483,8 +472,6 @@ your plan.</string>
         <segue reference="bLe-7O-knY"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Pfofile img" width="314" height="314"/>
-        <image name="image back" width="744" height="936"/>
         <image name="img 1" width="749" height="488"/>
         <image name="logo green img" width="298" height="230"/>
         <systemColor name="systemBackgroundColor">
