@@ -34,8 +34,6 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         facebookButton.layer.cornerRadius = 25
         twitterButton.layer.cornerRadius = 25
         
-
-        
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
@@ -48,23 +46,16 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         textField.backgroundColor = UIColor(hue: 0.35, saturation: 0.53, brightness: 0.88, alpha: 1.0) /* #6ae276 */
     
     }
+    
    /* func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-       
     }
  */
-        
-        
         
     override func performSegue(withIdentifier identifier: String, sender: Any?) {
         
         if identifier == "dashboard" {
             
         }
-        
-    
-        
-        
-        
     }
 }
 
