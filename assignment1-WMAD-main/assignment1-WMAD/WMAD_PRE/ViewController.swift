@@ -8,7 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var stuckView: UIStackView!
+    
     @IBOutlet weak var Login: UIButton!
     
     @IBOutlet weak var SignUpButton: UIButton!

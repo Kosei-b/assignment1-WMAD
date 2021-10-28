@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		010EA88E2727CE2000237ADE /* FrendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010EA88D2727CE2000237ADE /* FrendsTableViewController.swift */; };
 		01927094270BDDBE0064BAB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01927093270BDDBE0064BAB1 /* AppDelegate.swift */; };
 		01927096270BDDBE0064BAB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01927095270BDDBE0064BAB1 /* SceneDelegate.swift */; };
 		01927098270BDDBE0064BAB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01927097270BDDBE0064BAB1 /* ViewController.swift */; };
 		0192709B270BDDBE0064BAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01927099270BDDBE0064BAB1 /* Main.storyboard */; };
 		0192709D270BDDC10064BAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0192709C270BDDC10064BAB1 /* Assets.xcassets */; };
 		019270A0270BDDC10064BAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0192709E270BDDC10064BAB1 /* LaunchScreen.storyboard */; };
-		019E76E12716980E004982AD /* Dachbordviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E76E02716980E004982AD /* Dachbordviewcontroller.swift */; };
 		01AC416D270D887C003A75C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC416C270D887C003A75C9 /* LoginViewController.swift */; };
 		01AC416F270D88A5003A75C9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC416E270D88A5003A75C9 /* SignupViewController.swift */; };
+		01EC21D9272A1FDA002A6483 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC21D8272A1FDA002A6483 /* FriendsViewController.swift */; };
+		01EC21DB272A1FF9002A6483 /* FriendsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC21DA272A1FF9002A6483 /* FriendsRow.swift */; };
+		01EC21DD272A200D002A6483 /* FriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EC21DC272A200D002A6483 /* FriendsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		010EA88D2727CE2000237ADE /* FrendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendsTableViewController.swift; sourceTree = "<group>"; };
 		01927090270BDDBE0064BAB1 /* WMAD_PRE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMAD_PRE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01927093270BDDBE0064BAB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01927095270BDDBE0064BAB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,9 +29,11 @@
 		0192709C270BDDC10064BAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0192709F270BDDC10064BAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019270A1270BDDC10064BAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		019E76E02716980E004982AD /* Dachbordviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dachbordviewcontroller.swift; sourceTree = "<group>"; };
 		01AC416C270D887C003A75C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01AC416E270D88A5003A75C9 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		01EC21D8272A1FDA002A6483 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		01EC21DA272A1FF9002A6483 /* FriendsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsRow.swift; sourceTree = "<group>"; };
+		01EC21DC272A200D002A6483 /* FriendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +75,9 @@
 				0192709C270BDDC10064BAB1 /* Assets.xcassets */,
 				0192709E270BDDC10064BAB1 /* LaunchScreen.storyboard */,
 				019270A1270BDDC10064BAB1 /* Info.plist */,
-				019E76E02716980E004982AD /* Dachbordviewcontroller.swift */,
-				010EA88D2727CE2000237ADE /* FrendsTableViewController.swift */,
+				01EC21D8272A1FDA002A6483 /* FriendsViewController.swift */,
+				01EC21DA272A1FF9002A6483 /* FriendsRow.swift */,
+				01EC21DC272A200D002A6483 /* FriendsModel.swift */,
 			);
 			path = WMAD_PRE;
 			sourceTree = "<group>";
@@ -149,13 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EC21D9272A1FDA002A6483 /* FriendsViewController.swift in Sources */,
 				01AC416D270D887C003A75C9 /* LoginViewController.swift in Sources */,
-				019E76E12716980E004982AD /* Dachbordviewcontroller.swift in Sources */,
 				01927098270BDDBE0064BAB1 /* ViewController.swift in Sources */,
 				01AC416F270D88A5003A75C9 /* SignupViewController.swift in Sources */,
-				010EA88E2727CE2000237ADE /* FrendsTableViewController.swift in Sources */,
 				01927094270BDDBE0064BAB1 /* AppDelegate.swift in Sources */,
+				01EC21DB272A1FF9002A6483 /* FriendsRow.swift in Sources */,
 				01927096270BDDBE0064BAB1 /* SceneDelegate.swift in Sources */,
+				01EC21DD272A200D002A6483 /* FriendsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
