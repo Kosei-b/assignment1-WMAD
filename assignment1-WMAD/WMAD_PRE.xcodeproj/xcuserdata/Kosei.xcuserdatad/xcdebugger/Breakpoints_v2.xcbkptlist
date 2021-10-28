@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "29EF27CD-59B4-45C8-9FC8-58F233D419DA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32E2DDAF-9734-4E5F-B957-8278A01DFBF7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2DF5DDF-F1E4-48E7-B7D6-FA73C5E37496"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WMAD_PRE/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C2DF5DDF-F1E4-48E7-B7D6-FA73C5E37496 - 49d076ae095f3b5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WMAD_PRE.LoginViewController.titleValue.getter : Swift.String"
+                  moduleName = "WMAD_PRE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kosei/Desktop/assignment1-WMAD-main/assignment1-WMAD/WMAD_PRE/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "C2DF5DDF-F1E4-48E7-B7D6-FA73C5E37496 - 7d03b44b30b64b4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WMAD_PRE.LoginViewController.titleValue.setter : Swift.String"
+                  moduleName = "WMAD_PRE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kosei/Desktop/assignment1-WMAD-main/assignment1-WMAD/WMAD_PRE/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "C2DF5DDF-F1E4-48E7-B7D6-FA73C5E37496 - 1200d31a934e59ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WMAD_PRE.LoginViewController.titleValue.modify : Swift.String"
+                  moduleName = "WMAD_PRE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kosei/Desktop/assignment1-WMAD-main/assignment1-WMAD/WMAD_PRE/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "C2DF5DDF-F1E4-48E7-B7D6-FA73C5E37496 - 6250f5c6b5a7874a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WMAD_PRE.LoginViewController.titleValue.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "WMAD_PRE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kosei/Desktop/assignment1-WMAD-main/assignment1-WMAD/WMAD_PRE/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "C2DF5DDF-F1E4-48E7-B7D6-FA73C5E37496 - 7d91d4156a7fd23f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WMAD_PRE.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; WMAD_PRE.LoginViewController"
+                  moduleName = "WMAD_PRE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kosei/Desktop/assignment1-WMAD-main/assignment1-WMAD/WMAD_PRE/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "535">
+               </Location>
+               <Location
+                  uuid = "C2DF5DDF-F1E4-48E7-B7D6-FA73C5E37496 - f0e0455dea0869f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WMAD_PRE.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WMAD_PRE.LoginViewController&gt;"
+                  moduleName = "WMAD_PRE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Kosei/Desktop/assignment1-WMAD-main/assignment1-WMAD/WMAD_PRE/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "479">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
