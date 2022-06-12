@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>27517006594-f5vtce2am6p4s8kng3f6bbd6io9dc731.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.27517006594-f5vtce2am6p4s8kng3f6bbd6io9dc731</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCniP8E8OrB8sxGEDSDM8NIAd3Xbtp6jW8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>27517006594</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.koseB.Tunagu</string>
+	<key>PROJECT_ID</key>
+	<string>tunagu-swiftui</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tunagu-swiftui.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:27517006594:ios:b51512e62aef5f0373081b</string>
+</dict>
+</plist>
